@@ -1,0 +1,31 @@
+.vertical-line {
+    animation: vertical-line-animation 3s ease-in 0s infinite normal;
+    
+}
+.horizontal-left-line{
+    animation: horizontal-animation 3s linear 2.9s infinite normal;
+    
+}
+.horizontal-right-line{
+    animation: horizontal-animation 3s linear 2.9s infinite reverse;
+}
+
+@keyframes vertical-line-animation {
+    0%{
+        transform: translateY(-100%)
+    }
+    
+    100%{
+        transform: translateY(600%)
+        
+    }
+}
+
+@keyframes horizontal-animation {
+    0%{
+        transform: translateX(100%)
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}

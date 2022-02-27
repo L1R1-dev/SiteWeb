@@ -1,0 +1,270 @@
+.box {
+    position: absolute;
+    height: 5rem;
+    width: 5rem;
+    background: inherit;
+}
+.box-top-left{
+    left: 0;
+    top: 0;
+    transform-origin: 100% 100%;
+}
+.box-top-right{
+    left: 5rem;
+    top: 0;
+    transform-origin: 0 100%;
+}
+.box-bottom-left{
+    left: 0;
+    top: 5rem;
+    transform-origin: 100% 0;
+}
+.box-bottom-right{
+    top: 5rem;
+    left: 5rem;   
+    transform-origin: 0 0;
+}
+
+
+/*-----------HTML CIRCLE-----------*/
+.HTML .box-top-left{
+    animation: HTML-show-top-left 2s linear forwards;
+}
+.HTML .box-top-right{
+    animation: HTML-show-top-right 2s linear 6s forwards;
+}
+.HTML .box-bottom-left{
+    animation: HTML-show-bottom-left 2s linear 2s forwards;
+}
+.HTML .box-bottom-right{
+    animation: HTML-show-bottom-right 2s linear 4s forwards;
+}
+@keyframes HTML-show-top-left {
+    0%{
+        transform: skewX(0deg);
+    }
+    99.9%{
+        height: 5rem;
+        width: 5rem;
+    }
+    100%{
+        height: 0;
+        width: 0;
+        transform: skewX(90deg);
+    }
+}
+@keyframes HTML-show-bottom-left {
+    0%{
+        transform: skewY(0deg);
+    }
+    99.9%{
+        height: 5rem;
+        width: 5rem;
+    }
+    100%{
+        height: 0;
+        width: 0;
+        transform: skewY(-90deg);
+    }
+}
+@keyframes HTML-show-bottom-right {
+    0%{
+        transform: skewX(0deg);
+    }
+    99.9%{
+        height: 5rem;
+        width: 5rem;
+        
+    }
+    100%{
+        height: 0;
+        width: 0;
+        transform: skewX(90deg);
+    }
+}
+
+
+/*-----------CSS CIRCLE-----------*/
+.CSS .box {
+    background: inherit;
+}
+.CSS .box-top-left{
+    animation: CSS-show-top-left 2s linear forwards;
+}
+.CSS .box-top-right{
+    animation: CSS-show-top-right 2s linear 6s forwards;
+}
+.CSS .box-bottom-left{
+    animation: CSS-show-bottom-left 2s linear 2s forwards;
+}
+.CSS .box-bottom-right{
+    animation: CSS-show-bottom-right 2s linear 4s forwards;
+}
+@keyframes CSS-show-top-left {
+    0%{
+        transform: skewX(0deg);
+    }
+    99.9%{
+        height: 5rem;
+        width: 5rem;
+        
+    }
+    100%{
+        height: 0;
+        width: 0;
+        transform: skewX(90deg);
+
+    }
+}
+@keyframes CSS-show-bottom-left {
+    0%{
+        transform: skewY(0deg);
+    }
+    99.9%{
+        height: 5rem;
+        width: 5rem;
+        
+    }
+    100%{
+        height: 0;
+        width: 0;
+        transform: skewY(-90deg);
+
+    }
+}
+@keyframes CSS-show-bottom-right {
+    0%{
+        transform: skewX(0deg);
+    }
+    99.9%{
+        height: 5rem;
+        width: 5rem;
+    }
+    100%{
+        transform: skewX(45deg);
+    }
+}
+
+
+/*-----------JAVASCRIPT CIRCLE-----------*/
+.JavaScript .box-top-left{
+    animation: JavaScript-show-top-left 2s linear forwards;
+}
+
+.JavaScript .box-bottom-left{
+    animation: JavaScript-show-bottom-left 2s linear 2s forwards;
+}
+
+@keyframes JavaScript-show-top-left {
+    0%{
+        transform: skewX(0deg);
+    }
+    99.9%{
+        height: 5rem;
+        width: 5rem;
+        
+    }
+    100%{
+        height: 0;
+        width: 0;
+        transform: skewX(90deg);
+
+    }
+}
+@keyframes JavaScript-show-bottom-left {
+    0%{
+        transform: skewY(0deg);
+    }
+    99.9%{
+        height: 5rem;
+        width: 5rem;
+        
+    }
+    100%{
+        height: 0;
+        width: 0;
+        transform: skewY(-90deg);
+    }
+}
+
+
+/*-----------REACT CIRCLE-----------*/
+
+.ReactJS .box-top-left{
+    animation: ReactJS-show-top-left 2s linear forwards;
+}
+
+.ReactJS .box-bottom-left{
+    animation: ReactJS-show-bottom-left 2s linear 2s forwards;
+}
+
+@keyframes ReactJS-show-top-left {
+    0%{
+        transform: skewX(0deg);
+    }
+    99.9%{
+        height: 5rem;
+        width: 5rem;
+        
+    }
+    100%{
+        height: 0;
+        width: 0;
+        transform: skewX(90deg);
+    }
+}
+@keyframes ReactJS-show-bottom-left {
+    0%{
+        transform: skewY(0deg);
+    }
+    99.9%{
+        height: 5rem;
+        width: 5rem;
+    }
+    100%{
+        transform: skewY(-45deg);
+    }
+}
+
+/*-----------PHP CIRCLE-----------*/
+
+.Php .box-top-left{
+    animation: PHP-show-top-left 2s linear forwards;
+}
+
+@keyframes PHP-show-top-left {
+    0%{
+        transform: skewX(0deg);
+    }
+    99.9%{
+        height: 5rem;
+        width: 5rem;
+    }
+    100%{
+        transform: skewX(90deg);
+    }
+}
+
+/*-----------PYTHON CIRCLE-----------*/
+
+
+.Python .box-top-left{
+    animation: PYTHON-show-top-left 2s linear forwards;
+}
+
+@keyframes PYTHON-show-top-left {
+    0%{
+        transform: skewX(0deg);
+    }
+    99.9%{
+        height: 5rem;
+        width: 5rem;
+    }
+    100%{
+        transform: skewX(90deg);
+    }
+}
+
+
+
+

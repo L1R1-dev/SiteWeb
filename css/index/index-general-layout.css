@@ -1,0 +1,118 @@
+/* index.html/acceuil */
+.top,.bottom{
+    /* border: 1px solid white; */
+    /* border: 1px solid #50C8A0;     */
+}
+.top{
+    /* border: 1px solid white; */
+    /* border: 1px solid red; */
+    margin: 10rem 10% 0 10%;
+    display: flex;
+}
+img{
+    border: 1px solid white;
+    opacity: 0.6;
+    width: 10rem;
+}
+hr{
+    margin-left: 1rem;
+}
+#pres{
+    padding: 0 1rem;
+    /* border: 1px solid white; */
+    
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 1.5;
+    width: 20rem;
+}
+.middle-hr{
+    width: 30%;
+    margin: 5rem auto;
+}
+
+/* SECTION EXPERIANCE */
+.bottom{
+    /* border: 1px solid white; */
+    display:grid;
+    
+    margin: 0 10%;
+    height: fit-content;
+
+}
+.experience-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(33rem,1fr));
+    /* border: 1px solid white; */
+}
+.experience-container > div {
+    /* border: 1px solid white; */
+    display: flex;
+    padding-left: 5rem;
+}
+.description ul{
+    /* border: 1px solid white; */
+    padding-left: 3rem;
+    padding-bottom: 3rem;
+    
+}
+.description h2{
+    /* border: 1px solid white; */
+    padding-bottom: 0.5rem;
+    margin-left: -2rem;
+    width: fit-content;
+    text-decoration-line: underline;
+}
+.span-percent{
+    background: transparent;
+    position: relative;
+    left: 4rem;
+    top: 4.5rem;
+    z-index: 1000;
+}
+.container-circle{
+    position: relative;
+    bottom: 0;
+    width: 10rem;
+    height: 10rem;
+    overflow: hidden;
+    z-index: 1;
+}
+.circle{
+    position: relative;
+}
+.outer-circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+.inner-circle{
+    position: absolute;
+    top: 0.1rem;
+    left: 0.1rem;
+    height: 9.8rem;
+    width: 9.8rem;
+    background: inherit;
+    border-radius: 50%;
+}
+.HTML .outer-circle {
+    background: #ff3c00;
+}
+.CSS .outer-circle {
+    background: #008cff;
+}
+.JavaScript .outer-circle {
+    background: #ffee00;
+}
+.ReactJS .outer-circle {
+    background: #0400ff;
+}
+.Php .outer-circle {
+    background: #00b7ff;
+}
+.Python .outer-circle {
+    background: #2bff00;
+}

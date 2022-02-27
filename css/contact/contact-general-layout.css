@@ -1,0 +1,76 @@
+.container{
+    display: flex;
+    margin: 0 35rem;
+    margin-top: 5rem;
+    width: fit-content;
+    padding: 5em;
+
+}
+form{
+    border: 1px solid white;
+    border-radius: 0.4rem;
+    padding: 1rem 1rem 4rem 1rem ;
+    height: 100%;
+    
+}
+
+input{
+    background-color: rgb(196, 196, 196);
+
+    margin-bottom: 2rem;
+}
+input[type="text"]{
+    border-radius: 5px;
+    height:1rem;
+    width: 15rem;
+}
+textarea{
+    background: rgb(196, 196, 196) ;
+    border-radius: 5px;
+    width: 15rem;
+}
+
+.container form{
+    background-color: rgb(27, 26, 26);
+    
+}
+.right-cont{
+    display: flex;
+    flex-flow: column ;
+    margin-left: 1rem;
+    width: 100%;
+}
+.right-top{
+    background-color: rgb(27, 26, 26);
+    flex: 1;
+    /* border: 1px solid white; */
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.4rem;
+}
+.right-top > p{
+    background-color: rgb(27, 26, 26);
+
+}
+.right-bottom{
+    background-color: rgb(27, 26, 26);
+
+    flex: 1;
+    /* border: 1px solid white; */
+    padding: 1em;
+    border-radius: 0.4rem;    
+}
+
+button{
+    border: inherit;
+    width: 15rem;
+    height: 2rem;
+    margin-top: 1rem;
+    background-color: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+iframe{
+    height: 350px;
+    border-radius: 0.4rem;
+}
